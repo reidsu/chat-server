@@ -1,5 +1,3 @@
-import Message from "./message";
-
 class Store {
   constructor() {
     this.messageList = [];
