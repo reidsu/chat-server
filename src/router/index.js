@@ -22,4 +22,18 @@ router.delete("/message", async (ctx) => {
   ctx.body = {message: "删除成功"}
 });
 
+
+router.get("file", async(ctx) => {
+
+});
+
+router.post("file", async(ctx) => {
+
+});
+router.delete("file", async(ctx) => {
+
+});
+router.delete("files", async(ctx)=> {
+
+});
 export default router;
